@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Variation on the Holo Light theme that styles the Action Bar -->
+    <style name="Theme.MZDroid" parent="Theme.Sherlock.Light">
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="actionSpinnerItemStyle">@style/AbSelectorTitle</item>
+    </style>
+    
+    <style name="Widget.Styled.ActionBar" parent="Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+        <!-- <item name="background">@drawable/abBackground</item> -->
+        <!-- <item name="android:background">@drawable/abBackground</item> -->
+        <!-- <item name="titleTextStyle">@style/Widget.Styled.ActionBar.TitleTextStyle</item> -->
+        <!-- <item name="android:titleTextStyle">@style/Widget.Styled.ActionBar.TitleTextStyle</item> -->
+    </style>    
+    
+    <style name="AbSelectorTitle" parent="Widget.Sherlock.TextView.SpinnerItem">
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/abTextColor</item>
+    </style>
+    
+    <style name="AbTitle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/abTextColor</item>
+    </style>
+
+    <style name="tactic_name_button">
+        <item name="android:padding">10dp</item>
+        <item name="android:background">#FFFFFF</item>
+    </style>
+    
+    <style name="MyAboutTheme" parent="Theme.About">
+        <item name="aboutViewPagerIndicatorStyle">@style/CustomTitlePageIndicator</item>
+        <item name="aboutAppTitleStyle">@style/CustomAboutAppTitle</item>
+        <item name="aboutTitleStyle">@style/CustomAboutTitle</item>
+        <item name="aboutMsgStyle">@style/CustomAboutMsg</item>
+        <item name="aboutButtonStyle">@style/CustomAboutButton</item>
+        <item name="aboutContactButtonStyle">@style/CustomAboutContactButton</item>
+        <item name="aboutAppsTitleStyle">@style/AboutAppsTitle</item>
+        <item name="aboutAppsMsgStyle">@style/AboutAppsMsg</item>
+    </style>
+    
+    <style name="CustomTitlePageIndicator">
+        <item name="android:background">#FFDDDDDD</item>
+        <item name="footerColor">#a5cb3a</item>
+        <item name="footerLineHeight">2dp</item>
+        <item name="textColor">#FF999999</item>
+        <item name="selectedColor">#FF000000</item>
+        <item name="selectedBold">true</item>
+    </style>
+    
+    <style name="CustomAboutAppTitle">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="CustomAboutTitle">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+    
+    <style name="CustomAboutMsg">
+        <item name="android:textColor">#000000</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+    
+    <style name="CustomAboutButton">
+        <item name="android:layout_margin">10dp</item>
+    </style>
+    
+    <style name="CustomAboutContactButton">
+    </style>
+    
+    <style name="AboutAppsTitle" parent="android:Widget.TextView">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="AboutAppsMsg" parent="android:Widget.TextView">
+        <item name="android:textColor">#000000</item>
+    </style>
+</resources>

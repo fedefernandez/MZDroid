@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:fillViewport="true"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <fragment
+                android:id="@+id/main_fragment"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                class="com.projectsexception.mzdroid.fragments.MainFragment" />
+    
+            <fragment
+                android:id="@+id/standings_fragment"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                class="com.projectsexception.mzdroid.fragments.StandingsFragment" />
+        
+        </LinearLayout>
+
+        <include layout="@layout/row_more" android:id="@+id/more_button_standings"/>
+
+        <include layout="@layout/row" android:id="@+id/row_standings"/>
+
+        <fragment
+            android:id="@+id/matches_next_fragment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            class="com.projectsexception.mzdroid.fragments.MatchesFragment"
+            android:tag="@string/tag_matches_next" />
+
+        <fragment
+            android:id="@+id/matches_played_fragment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            class="com.projectsexception.mzdroid.fragments.MatchesFragment"
+            android:tag="@string/tag_matches_played" />
+
+        <include layout="@layout/row_more" android:id="@+id/more_button_matches"/>
+
+        <include layout="@layout/row" android:id="@+id/row_matches"/>
+    </LinearLayout>
+
+</ScrollView>

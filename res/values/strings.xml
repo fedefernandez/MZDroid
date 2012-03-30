@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MZDroid</string>
+    
+    <string name="tag_matches_played">tag_played</string>
+    <string name="tag_matches_next">tag_next</string>
+    
+    <string name="title_main">Principal</string>
+    <string name="title_coach">Entrenador</string>
+    
+    <string name="main_user">Usuario</string>
+    <string name="main_series">Series</string>
+    <string name="main_sponsor">Sponsor</string>
+    <string name="main_rank_pos">Ranking position</string>
+    <string name="main_rank_points">Ranking points</string>
+    <string name="main_no_sponsor">&lt;Sin sponsor></string>
+    
+    <string name="main_button_players">Jugadores</string>
+    <string name="main_button_training">Entrenamiento</string>
+    
+    <string name="players_height">Altura</string>
+    <string name="players_weight">Peso</string>
+    <string name="players_age">Edad</string>
+    <string name="players_salary">Salario</string>
+    <string name="players_value">Valor</string>
+
+    <string name="skill_speed">Velocidad</string>
+    <string name="skill_stamina">Resistencia</string>
+    <string name="skill_intel">Inteligencia</string>
+    <string name="skill_passing">Pases cortos</string>
+    <string name="skill_shooting">Remates</string>
+    <string name="skill_heading">Cabezazos</string>
+    <string name="skill_keeping">Portería</string>
+    <string name="skill_ball_control">Control de balón</string>
+    <string name="skill_tackling">Entradas</string>
+    <string name="skill_aerial_passing">Pases largos</string>
+    <string name="skill_set_plays">Balón parado</string>
+    <string name="skill_experience">Experiencia</string>
+    <string name="skill_form">Estado físico</string>
+    
+    <string name="pos_goal_keeper">Portero</string>
+    <string name="pos_central_defender">Defensa central</string>
+    <string name="pos_wing_defender">Defensa lateral</string>
+    <string name="pos_defensive_midfielder">Centrocampista defensivo</string>
+    <string name="pos_attacking_midfielder">Centrocampista atacante</string>
+    <string name="pos_wing_defensive_midfielder">Centrocampista defensivo lateral</string>
+    <string name="pos_wing_attacking_midfielder">Centrocampista atacante lateral</string>
+    <string name="pos_centre_forward">Delantero centro</string>
+    <string name="pos_centre_striker">Mediapunta</string>
+    <string name="pos_wing_forward">Delantero lateral</string>
+    <string name="pos_wing_striker">Extremo</string>
+    
+    <string name="console_title_start">Autenticando al usuario</string>
+    <string name="console_title_team">Cargando datos del equipo</string>
+    <string name="console_title_players">Comprobando cambios en los jugadores</string>
+    <string name="console_title_training">Leyendo entrenamiento</string>
+    
+    <string name="day_1">Lunes</string>
+    <string name="day_2">Martes</string>
+    <string name="day_3">Miércoles</string>
+    <string name="day_4">Jueves</string>
+    <string name="day_5">Viernes</string>
+    <string name="day_6">Sábado</string>
+    <string name="day_7">Domingo</string>
+    <string name="training_format_date">EEEEEEEEE dd \'de\' MMMMM \'de\' yyyy</string>
+    
+    <string name="console_msg_no_connection">Sin conexión</string>
+    <string name="console_msg_login">Éxito en la autenticación</string>
+    <string name="console_msg_team">Equipo: %s</string>
+    <string name="console_msg_no_players">No se encontraron nuevos jugadores</string>
+    <string name="console_msg_new_player">Nuevo Jugador: %s</string>
+    <string name="console_msg_new_training">Nuevo entrenamiento: %s</string>
+    <string name="console_msg_no_training">No hay datos para dicho entrenamiento</string>
+    
+    <string name="error_userpass">Username and/or password are incorrect</string>
+    <string name="error_userpass_empty">Username of password cannot be empty</string>
+    
+    <string name="standings">Standings</string>
+    <string name="league_title">Liga: %s</string>
+    <string name="next_match">Próximo partido</string>
+    <string name="next_matches">Próximos partidos</string>
+    <string name="played_matches">Partidos jugados</string>
+    <string name="played_match">Último partido</string>
+    <string name="match_score">%1$d - %2$d</string>
+    
+    <string name="standings_pos">#</string>
+    <string name="standings_team">Team</string>    
+    <string name="standings_points">Points</string>
+    
+    <string name="training_list">Training list</string>
+    
+    <string name="pref_username_key">username</string>
+    <string name="pref_username_title">Username</string>
+    <string name="pref_username_msg">Specify your username or leave blank for prompt</string>
+    
+    <string name="pref_authentication">Autenticación</string>
+    <string name="pref_password_key">password</string>
+    <string name="pref_password_title">Password</string>
+    <string name="pref_password_msg">Specify your password or leave blank for prompt</string>
+    <string name="pref_backup_restore">Copia de Seguridad</string>
+    <string name="pref_backup_key">backup</string>
+    <string name="pref_backup_title">Realizar copia</string>
+    <string name="pref_backup_msg">Pulse para realizar una copia en la SD</string>
+    <string name="pref_restore_key">restore</string>
+    <string name="pref_restore_msg">Pulse para restaurar una copia existente</string>
+    <string name="pref_restore_title">Restaurar copia</string>
+    <string name="pref_info">Más información</string>
+    <string name="pref_about_key">about</string>
+    <string name="pref_about_msg">Pulse para saber más sobre el desarrollador</string>
+    <string name="pref_about_title">Acerca</string>
+    
+    <string name="about_app_name">MZDroid</string>
+    <string name="about_contact_button_1">Web</string>
+    <string name="about_contact_button_1_url">http://www.google.es</string>
+    <string name="about_contact_button_2">\@ProException</string>
+    <string name="about_contact_button_2_url">http://www.twitter.com/ProException</string>
+    <string name="about_mail_subject">Good application</string>
+    <string name="about_mail_body">Check this application</string>
+    <string name="about_facebook_url">http://www.projectsexception.com/</string>
+    <string name="about_facebook_title">MZDroid Application</string>
+    <string name="about_twitter_msg">Check this #androin application</string>
+    <string name="about_problem_msg">This is a beta version. If you have a problem, please contact me</string>
+    <string name="about_problem_dialog_button">Send Mail</string>
+    <string name="about_problem_mail">info@projectsexception.com</string>
+    <string name="about_problem_subject">MZDroid Support</string>
+    <string name="about_pro_package"></string>
+    
+    <string name="player_positions">Posiciones</string>
+    <string name="player_notes">Notas</string>
+    
+    <string name="player_button_train">Entren.</string>    
+    <string name="player_button_notes">Notas</string>    
+    <string name="training_details_problem">&lt;Seleccione un día de entrenamiento></string>    
+    <string name="training_unknown_date">Unknown date</string>    
+    <string name="content_desc_arrow_down">More Arrow Down</string>    
+    <string name="more">More</string>    
+    <string name="content_desc_arrow_right">More arrow right</string>    
+    <string name="content_desc_edit_notes">Edit notes</string>    
+    <string name="player_notes_empty">&lt;Sin notas></string>    
+    <string name="calculate">Calculate</string>    
+    <string name="change">Change</string>
+</resources>

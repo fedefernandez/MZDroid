@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="panel_popup_type" type="id"/>
+    <item name="training_week_tag" type="id"/>
+    <item name="training_day_tag" type="id"/>
+    
+    <item name="menu_read_data" type="id"/>
+    <item name="menu_settings" type="id"/>
+    <item name="menu_reload" type="id"/>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item 
+        android:title="Read data"
+        android:id="@id/menu_read_data"
+        android:icon="@drawable/ic_menu_downlaod"
+        android:showAsAction="always"/>
+    
+    <item
+        android:title="Settings"
+        android:id="@id/menu_settings"
+        android:icon="@drawable/ic_menu_settings"
+        android:showAsAction="always"/>
+
+</menu>

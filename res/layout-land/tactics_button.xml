@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="#AAFFFFFF"
+        android:padding="5dp">        
+        <Button 
+            android:id="@+id/tactic_change"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:onClick="changeTactic"
+            android:drawableBottom="@drawable/tactic_icon"
+            android:text="@string/change"/>
+        <Button 
+            android:id="@+id/tactic_apply"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="5dp"
+            android:onClick="applyTactic"
+            android:drawableBottom="@drawable/calculator_icon"
+            android:text="@string/calculate"/>
+    </LinearLayout>
+</RelativeLayout>

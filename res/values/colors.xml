@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#eaeaea</color>
+    <color name="abBackground">#d7d7d7</color>
+    <color name="abBackgroundTrans">#88d7d7d7</color>
+    <color name="abBackgroundSelected">#FF83B600</color>
+    <color name="abTextColor">#161616</color>
+    <color name="titleBackground">#99d5d5d5</color>
+    
+    <color name="standing_1">#6ec606</color> <!-- Ascenso -->
+    <color name="standing_2">#3a69af</color> <!-- Promoción ascenso -->
+    <color name="standing_3">#f08808</color> <!-- Promoción descenso -->
+    <color name="standing_4">#da0717</color> <!-- Descenso -->
+    <color name="standing_5">#a5a5a5</color> <!-- Otros -->
+    
+    
+    <color name="line_text">#FFFFFF</color>
+    <color name="line_selected_text">#26962D</color>
+    <color name="line_color">#3F7611</color>
+    <color name="title">#3F7611</color>
+    <color name="text">#545454</color>
+    
+    <color name="about_background">#FFFFFF</color>
+</resources>

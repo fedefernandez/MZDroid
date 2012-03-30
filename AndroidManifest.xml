@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.projectsexception.mzdroid"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.MZDroid" >
+        <activity
+            android:label="@string/app_name"
+            android:name=".MainActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ReaderActivity" />
+        <activity android:name=".PlayersActivity" />
+        <activity android:name=".PlayerDetailsActivity" />
+        <activity android:name=".PlayerTrainingActivity" />
+        <activity android:name=".TrainingActivity" />
+        <activity android:name=".TrainingDetailsActivity" />
+        <activity android:name=".TacticsActivity" />
+        <activity android:name=".StandingsActivity" />
+        <activity
+            android:name=".MZPreferenceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.projectsexception.about.AboutActivity"
+            android:theme="@style/MyAboutTheme" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+</manifest>

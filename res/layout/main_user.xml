@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:id="@+id/user_data"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/team_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@color/title"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/user_image"
+                android:layout_width="75px"
+                android:layout_height="90px"
+                android:src="@drawable/default_user"
+                android:background="@drawable/image_background" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text" />
+                <TextView
+                    android:id="@+id/series"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text" />
+                <TextView
+                    android:id="@+id/sponsor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text" />
+                <TextView
+                    android:id="@+id/rank_pos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text" />
+                <TextView
+                    android:id="@+id/rank_points"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout 
+        android:id="@+id/user_no_data"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@color/title"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="¡Aún no hay datos!" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@color/text"
+            android:text="Por favor, acceda al menú para recuperar nuevos datos" />
+    </LinearLayout>
+</FrameLayout>

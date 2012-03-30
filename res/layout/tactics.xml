@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/field_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/tactics_background">
+    <com.projectsexception.mzdroid.view.FieldView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+    <com.projectsexception.mzdroid.view.PlayersView
+        android:id="@+id/players_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <RelativeLayout
+            android:id="@+id/players_forwards"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RelativeLayout
+            android:id="@+id/players_midfields"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RelativeLayout
+            android:id="@+id/players_defenses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </com.projectsexception.mzdroid.view.PlayersView>
+    <include layout="@layout/tactics_button"/>
+</FrameLayout>
